@@ -1,7 +1,7 @@
 """CNN definitions for Task 2.
 
 `PlantCNN` is a compact Conv-BN-ReLU-Pool network trained from scratch. It is deliberately small
-(~0.3M parameters, ~100M MACs/image) so it trains on a CPU in minutes. `build_model("mobilenet_v3_small",
+(~0.47M parameters, ~100M MACs/image) so it trains on a CPU in minutes. `build_model("mobilenet_v3_small",
 pretrained=True)` offers the transfer-learning alternative when pretrained weights can be downloaded.
 """
 from __future__ import annotations
