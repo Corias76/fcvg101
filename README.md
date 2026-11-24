@@ -29,5 +29,3 @@ Test-set result: accuracy 0.9717, macro-F1 0.9679 (2,717 images). See the report
 ## Quick check without retraining
 The trained model and calibration are already in `models/` and the chessboard images are in `data/calib/`, so after `pip install -r requirements.txt` you can run `streamlit run app.py` straight away (upload any tomato leaf photo) and `python -m tests.test_router` for the routing test. Training and evaluation need the PlantVillage download above.
 
-## Demo
-A short demonstration GIF/video of the app: _add link here_.
