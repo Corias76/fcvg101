@@ -65,8 +65,9 @@ def table(rows, widths=None, header=True, fs=8):
 # =============================================================================== title
 P("FCVG101 Introduction to Computer Vision - Coursework Report", ParagraphStyle("T", parent=H1, fontSize=19, spaceAfter=2))
 P("<b>Leaf Inspection Assistant:</b> a computer-vision MVP for an organic tomato farm", ParagraphStyle("S", parent=B, fontSize=11.5))
-P("Student name / ID: <b>[fill in]</b> &nbsp;|&nbsp; Code repository: <b>[paste link]</b> &nbsp;|&nbsp; "
-  "Trained model (shared link): <b>[paste link to models/tomato_cnn.pt]</b>", B)
+P("Student name / ID: <b>Nguyen Tien Dung / [student ID]</b> &nbsp;|&nbsp; Code repository: "
+  "<b>https://github.com/Corias76/fcvg101</b> &nbsp;|&nbsp; Trained model (shared link): "
+  "<b>https://github.com/Corias76/fcvg101/blob/main/models/tomato_cnn.pt</b>", B)
 
 H = "<b>Summary.</b> "
 P(H + "The system plays the role of an inspection assistant for an organic tomato farm. It (a) models the camera with the pinhole "
